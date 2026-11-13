@@ -1,0 +1,35 @@
+PHASE 5 — PUBLISH YOUR PORTFOLIO WITH GITHUB PAGES
+
+1. Sign in at https://github.com/ and create a PUBLIC repository named:
+   tushar-portfolio
+
+2. Open the repository and choose Add file > Upload files.
+
+3. Open the extracted project folder on your PC. Select ALL items inside
+   the folder and upload them. Upload index.html at the repository ROOT.
+   Do not upload only the ZIP file or the outer folder.
+
+4. Add a commit message and click Commit changes.
+
+5. Open repository Settings > Pages.
+
+6. Under Build and deployment, select:
+   Source: Deploy from a branch
+   Branch: main
+   Folder: /(root)
+   Then click Save.
+
+7. Wait a few minutes and refresh Settings > Pages. Open the website
+   address GitHub displays there.
+
+For repository name tushar-portfolio, expected address:
+https://mrtushar9737-ship-it.github.io/tushar-portfolio/
+
+IMPORTANT:
+- Your email and phone number are public on this portfolio.
+- The contact form opens the visitor's email app; it does not store messages.
+- Never upload passwords, API keys, or real bank account data.
+- GitHub Pages publishes static HTML/CSS/JS. It does not run a Python backend.
+
+If the page shows 404, check that index.html is at the repository root,
+that the Pages branch is main and folder is /(root), and wait a few minutes.
